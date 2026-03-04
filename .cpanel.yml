@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dannrero/public_html/
+    - /bin/cp -R $REPOSITORY_WEBROOT/* $DEPLOYPATH
